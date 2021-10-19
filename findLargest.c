@@ -1,15 +1,13 @@
 #include<stdio.h>
-#include<conio.h>
-{
+
+int main(){
 int a,b;
-printf("enter a number");
-scanf("%d%d",&a,&b);
-switch(a>b)
-{
-case1: ("%d is largest ",a);
-break;
-case0: (%d is largest ",b);
-break;
+printf("enter two numbers\n");
+scanf("%d %d",&a,&b);
+if(a>b){
+printf("%d is largest\n",a);
 }
-getch();
+  else{
+printf("%d is largest\n",b);
+}
 }
